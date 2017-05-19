@@ -1,0 +1,97 @@
+@import '../../variables';
+
+// home page
+.breath{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nav{
+    @extend .breath;
+}
+$padding-left-right: 100px;
+.page-header{
+    display: block;
+    height: 200px;
+    background-color: $dark;
+    overflow: hidden;
+    position: relative;
+    color: white;
+   
+    .main-info{
+        margin-top: 70px;
+        display: inline-block;
+        
+    }
+}
+
+$img-scale: 150px;
+.profile-image{
+    float:right;
+    border-radius: 50%;
+    height: $img-scale;
+    width: $img-scale;
+    margin-top: 20px;
+}
+
+.resume-summary{
+    display: block;
+    background-color: $dark;
+    color: white;
+
+    p{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+}
+
+// resume-body
+.shadow{
+    height: 20px;
+    box-shadow: inset 0px 11px 6px -8px #222;
+}
+.shadow.light{
+        transform: translateY(-20px);
+        box-shadow: inset 0px 20px 6px -8px #222;
+        opacity: 0.2;
+}
+
+.resume-body{
+}
+
+// resume-body >> aside-sections
+.aside{
+    width: 40%;
+    float: left;
+    background-color: white;
+    border-right: 1px solid #eee;
+    padding-top: 40px;
+    margin-top: 30px;
+    
+    h2{color: #00CCFF;}
+
+    
+}
+
+.aside-section{
+    margin-bottom: 50px;
+    float: left;
+
+}
+.aside-container{
+    float:left;
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+
+// resume-body >> resume-information
+.resume-info{
+    width: 60%;
+    padding-left: 50px;
+    float:left;
+}
+
+
+// *{border: 1px solid grey};

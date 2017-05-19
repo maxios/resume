@@ -1,0 +1,43 @@
+@import '../../variables';
+.sidetable{
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 22px;
+        .table-row{
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            .thead{
+                min-width: 140px;
+                display: inline-block;
+            }
+            .table-cell{
+                display: inline-block;
+                margin-left: 10px;
+                color: #aaa;
+            }
+        }
+
+       
+    }
+
+.strips{
+        border-bottom: 1px solid #eee;
+}
+
+.pure{
+        border: 0;
+}
+
+.progress-bar{
+    height: 10px;
+    background-color: grey;
+    width: 200px;
+    max-width: 200px;
+
+    .progress{
+        @extend .progress-bar;
+        background-color: $puresky;
+    }
+    
+}

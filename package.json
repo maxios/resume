@@ -1,0 +1,39 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^3.0.5"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-survivejs-kanban": "^0.3.3",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.0",
+    "node-fetch": "^1.6.3",
+    "node-sass": "^4.5.2",
+    "npm-dfsdfinstall-webpack-plugin": "^4.0.4",
+    "react-redux": "^5.0.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "scripts": {
+    "eject": "react-scripts eject",
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

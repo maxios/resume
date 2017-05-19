@@ -1,0 +1,41 @@
+@import '../../variables';
+
+footer{
+    margin-top: 200px;
+}
+.refs-container{
+    height: 200px;
+    text-align: center;
+    position: relative;
+    background-color: $puresky;
+    
+    .refs-content{
+        display: inline-block;
+    }
+ 
+    .ref{
+        display: inline-block;
+        float: left;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: 2px solid $dark;
+        margin-top: 40px;
+    }
+    .ref.middle{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.copyrights-container{
+    height: 70px;
+    text-align: center;
+    background-color: $dark;
+    color: white;
+    
+    p{
+        margin-top: 20px;
+        display: inline-block;
+    }
+}

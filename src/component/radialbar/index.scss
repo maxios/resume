@@ -1,0 +1,81 @@
+$percent: 20;
+
+
+
+.container{
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+.object{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.core.background{
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  left: 0;
+  top: 0;
+  
+  z-index: 0;
+}
+.core{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 3;
+  
+}
+
+.half.right{
+  @extend .object;
+  position: absolute;
+  background-color: blue;
+  clip: rect(0, 100px, 200px, 0px);
+  z-index: 0;
+
+  transition: transform 0.5s linear 0s;
+  // animation: right 4s linear infinite;
+  // visibility: hidden;
+  // transform: rotateZ(120deg);
+}
+
+.half.mediate{
+  @extend .object;
+  background-color: grey;
+  position: absolute;
+  clip: rect(0, 100px, 200px, 0px);
+  z-index: 0;
+
+}
+
+.half.left{
+  @extend .object;
+  position: absolute;
+  clip: rect(0, 200px, 200px, 100px);
+  background-color: red;
+  z-index: 2;
+  opacity: 0;
+    // transform: rotateZ(120deg);
+
+  transition: transform 0.5s linear 0.5s;
+  // animation: left 4s linear infinite;
+  // visibility: hidden;
+}
+
+input{
+  top: 300px;
+  height: 100px;
+  font-size: 32px;
+  position: relative;
+}
+button{
+  @extend input;
+}

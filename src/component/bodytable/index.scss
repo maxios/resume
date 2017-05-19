@@ -1,0 +1,54 @@
+@import '../../variables';
+
+$node-scale: 20px;
+$node-border-scale: 40px;
+$bodytable-padding: 50px;
+$title-size: 22px;
+.bodytable{
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-left: $bodytable-padding;
+        border-left: 4px solid lightblue;
+    
+
+    
+    .bodyrow{
+        border-bottom: 1px solid #eee;
+    
+        .content{
+            padding-bottom: 30px;
+
+            .title{
+                margin-top: 30px;
+
+               
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+.node{
+    width: $node-scale;
+    height: $node-scale;
+    background-color: $puresky;
+    margin-left: ($bodytable-padding + $node-scale/2 + 2) * -1;
+    
+    // common
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+.node-border{
+    @extend .node;
+    width: $node-border-scale;
+    height: $node-border-scale;
+    background-color: $puresky;
+    
+    opacity: 0.3;
+    
+    margin-left: ($bodytable-padding + $node-border-scale/2 + 2) * -1;
+    margin-top: ($node-border-scale/4) * -1;
+}
