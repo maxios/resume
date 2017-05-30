@@ -3,7 +3,6 @@ const merge = require('webpack-merge');
 
 const TARGET = process.env.npm_lifecycle_event;
 const webpack = require('webpack');
-const NpmInstallPlugin = require('npm-install-webpack-plugin');
 const PATHS = {
 
         app: path.join(__dirname, 'src'),

@@ -64,7 +64,7 @@ class ResumePage extends React.Component {
                             <h1 className='name'>Khaled Maher</h1>
                             <h3 className='title'>Full-Stack Web Developer</h3>
                         </div>
-                        <img src='http://static.colourlovers.com/images/photocopa/54/542/542564/m.jpg' 
+                        <img src='file:///home/images/Picture.jpeg'
                             className='profile-image'/>
                         
                     </div>
@@ -77,7 +77,7 @@ class ResumePage extends React.Component {
                         <p>i wonder having all the pleasure of your job sir and i will cut your nose off from my desk top oh my spy that watching me now i will find you and eat you sir you sir have no clue that i am writing any words .. this shit will end soon the way of the future will be the most expensive experience and i will go to playing footbal with my friends oh my dear all this language will be down ahead to you in school of mine and basketball of my kid who has been kick me off the stage of yours this traditional talkin is for coding sorry for that</p>
                     </div>
                 </div> 
-                    <div className='shadow'></div>          {/*shadow*/}
+                  <div className='lean-box'></div>
                 <div className='resume-body min-width'>
     {/*aside sections*/}
                     <div className='aside'>

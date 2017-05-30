@@ -31,6 +31,7 @@ $img-scale: 150px;
     height: $img-scale;
     width: $img-scale;
     margin-top: 20px;
+    mix-blend-mode: luminosity;
 }
 
 .resume-summary{
@@ -44,6 +45,15 @@ $img-scale: 150px;
         display: inline-block;
     }
 }
+.lean-box{
+    width: 100%;
+    height: 80px;
+    border-top: 40px solid $dark;
+    border-bottom: 40px solid transparent;
+    border-left: 40em solid transparent;
+    border-right: 60em solid transparent;
+}
+
 
 // resume-body
 .shadow{

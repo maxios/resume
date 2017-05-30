@@ -1,9 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router-dom';
 class NavLink extends React.Component{
     render(){
         return(
-            <Link to='/'><li>{this.props.text}</li></Link>
+            <li><Link to={this.props.linkto}>{this.props.text}</Link></li>
         )
     }
 }

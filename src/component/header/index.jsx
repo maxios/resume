@@ -7,8 +7,8 @@ class Header extends React.Component{
             <div className='nav'>
                 <ul className='nav-links'>
                     <NavLink text='HELLO' linkto="/" />
-                    <NavLink text='RESUME' linkto="resume" />
-                    <NavLink text='PORTFOLIO' linkto="portfolio" />
+                    <NavLink text='RESUME' linkto="/resume" />
+                    <NavLink text='PORTFOLIO' linkto="/portfolio" />
                 </ul>
             </div>
         )
